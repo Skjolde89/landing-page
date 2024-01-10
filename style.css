@@ -7,10 +7,10 @@ body {
     color: #e5e7eb;
     flex-direction: column;
     display: flex;
-    padding-left: 350px;
-    padding-right: 350px;
     padding-top: 20px;
     height: 600px;
+    padding-left: 20em;
+    padding-right: 20em;
 }
 
 .first {
@@ -38,7 +38,6 @@ body {
 .second {
     display: flex;
     height: 37.5em;
-    gap: 20px;
     justify-content: center;
     align-items: center;
 }
@@ -94,6 +93,7 @@ button.sign-up {
     height: 400px;
     text-align: center;
     justify-content: center;
+
 }
 
 .info-title {
@@ -124,19 +124,58 @@ button.sign-up {
 .grey-area {
     display: flex;
     flex-direction: column;
-    background-color: grey;
+    background-color: #e5e7eb;
     height: 400px;
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding-left: 20em;
+    padding-right: 20em;
 }
 
 .quote {
+    color: #1f2937;
     display: flex;
-    max-width: 1200px;
+    font-size: 36px;
+    font-style: italic;
+
 }
 
 .author {
     display: flex;
     justify-content: flex-end;
+    margin-left: auto;
+    font-size: 1.1em;
+    padding-right: 30px;
+    font-weight: 900;
+    font-size: 36px;
+}
+
+.white-area {
+    display: flex;
+    height: 400px;
+    padding-left: 20em;
+    padding-right: 20em;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-box {
+    display: flex;
+    height: 175px;
+    width: 100%;
+    background-color: #3882f6;
+    border-radius: 10px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.blue-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.blue-button {
+    display: flex;
 }
