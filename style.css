@@ -15,25 +15,14 @@ body {
 
 .first {
     display: flex;
+    justify-content: space-between;
+    flex-direction: row;
 }
-
-.logo {
-    display: flex;
-    margin-right: auto;
-    font-size: 24px;
-    padding-bottom: 20px;
-    font-weight: 900;
-
-}
-
 .links {
     display: flex;
-    margin-left: auto;
-    gap: 1.5em;
-    font-size: 18px;
-    padding-bottom: 20px;
-
+    gap: 25px;
 }
+
 
 .second {
     display: flex;
@@ -126,6 +115,7 @@ button.sign-up {
     flex-direction: column;
     background-color: #e5e7eb;
     height: 400px;
+    max-width: 100%;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -169,6 +159,9 @@ button.sign-up {
     color: white;
     justify-content: center;
     align-items: center;
+    padding-left: 10em;
+    padding-right: 10em;
+    
 }
 
 .blue-content {
@@ -176,6 +169,35 @@ button.sign-up {
     flex-direction: column;
 }
 
+.blue-title {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.blue-text {
+    font-size: 20px;
+    font-weight: 100;
+}
+
 .blue-button {
     display: flex;
+    margin-left: auto;
+    border: 2px solid;
+    padding: 5px 30px 5px 30px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    margin-top: auto;
+}
+
+.copyright {
+    padding: 30px;
+    font-size: 18px;
 }
